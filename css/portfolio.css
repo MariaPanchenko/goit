@@ -1,0 +1,129 @@
+:root {
+  --main-color: #212121;
+  --title-color: #757575;
+  --accent-color: #2196f3;
+}
+
+/* header */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-color);
+}
+header {
+  display: flex;
+
+  font-weight: 500;
+  font-size: 14px;
+}
+.header-nav {
+  display: flex;
+}
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+  color: var(--main-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+}
+.logo-accent {
+  color: var(--accent-color);
+}
+
+.header-nav > a {
+  text-decoration: none;
+}
+
+.header-list > li {
+  display: inline-block;
+}
+.header-list > li > a {
+  text-decoration: none;
+  color: var(--main-color);
+}
+.header-list > li > a:hover {
+  color: var(--accent-color);
+}
+
+.header-cont {
+  list-style-type: none;
+}
+.header-cont > li {
+  display: inline-block;
+}
+.header-mail {
+  color: var(--title-color);
+  text-decoration: none;
+}
+.header-mail:hover {
+  color: var(--accent-color);
+  cursor: pointer;
+}
+.header-tel {
+  color: var(--title-color);
+  text-decoration: none;
+}
+.header-tel:hover {
+  color: var(--accent-color);
+}
+
+/* header */
+/* list */
+.title-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.list-item > li {
+  list-style-type: none;
+  display: inline-block;
+}
+.list-button {
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #f5f4fa;
+  border: 0;
+  border-radius: 4px;
+}
+.list-button:hover {
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer-contacts {
+}
+.logo-accent2 {
+  color: #ffffff;
+}
+.footer-lists > li {
+  list-style-type: none;
+}
+.footer-lists > li > a {
+  text-decoration: none;
+}
+.footer-addres {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+}
+.footer-link {
+  color: var(--title-color);
+  font-weight: 400;
+  font-size: 14px;
+}
+.footer-tel {
+  color: var(--title-color);
+  font-weight: 400;
+  font-size: 14px;
+}
+/* footer */

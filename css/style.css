@@ -1,0 +1,189 @@
+/* main color #212121 */
+/* title color #757575 */
+/* accent color #2196F3 */
+:root {
+  --main-color: #212121;
+  --title-color: #757575;
+  --accent-color: #2196f3;
+}
+
+/* header */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-color);
+  letter-spacing: 3%;
+}
+header {
+  display: flex;
+
+  font-weight: 500;
+  font-size: 14px;
+}
+.header-nav {
+  display: flex;
+}
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+  color: var(--main-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 19;
+}
+.logo-accent {
+  color: var(--accent-color);
+}
+
+.header-nav > a {
+  text-decoration: none;
+}
+
+.header-list > li {
+  display: inline-block;
+}
+.header-list > li > a {
+  text-decoration: none;
+  color: var(--main-color);
+  font-style: Medium;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0, 7;
+}
+.header-list > li > a:hover {
+  color: var(--accent-color);
+}
+
+.header-cont {
+  list-style-type: none;
+}
+.header-cont > li {
+  display: inline-block;
+}
+.header-mail {
+  color: var(--title-color);
+  text-decoration: none;
+}
+.header-mail:hover {
+  color: var(--accent-color);
+  cursor: pointer;
+}
+.header-tel {
+  color: var(--title-color);
+  text-decoration: none;
+}
+.header-tel:hover {
+  color: var(--accent-color);
+}
+
+/* header */
+/* main */
+.sec-first {
+  background-color: #2f303a;
+
+  height: 600px;
+}
+.sec-header {
+  color: #ffffff;
+  font-size: 44px;
+  text-align: center;
+}
+.sec-button {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  border: none;
+  display: block;
+  margin: 0 auto;
+}
+
+/* benefits */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.benefits-lists > li {
+  list-style-type: none;
+}
+.benefits-title {
+  font-weight: 700;
+  font-size: 14px;
+}
+.benefits-par {
+  font-style: regular;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71;
+}
+p {
+  color: var(--title-color);
+}
+/* benefits */
+
+/* about */
+.about-header {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}
+.about-lists > li {
+  list-style-type: none;
+}
+/* about */
+
+/* team */
+.team-header {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}
+.team-lists > li {
+  list-style-type: none;
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+}
+.team-job {
+  font-weight: 400;
+  font-size: 16px;
+}
+/* team */
+
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer-contacts {
+}
+.logo-accent2 {
+  color: #ffffff;
+}
+.footer-lists > li {
+  list-style-type: none;
+}
+.footer-lists > li > a {
+  text-decoration: none;
+}
+.footer-addres {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+}
+.footer-link {
+  color: var(--title-color);
+  font-weight: 400;
+  font-size: 14px;
+}
+.footer-tel {
+  color: var(--title-color);
+  font-weight: 400;
+  font-size: 14px;
+}
+/* footer */
