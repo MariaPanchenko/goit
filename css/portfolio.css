@@ -32,12 +32,15 @@ header {
 .header-nav > a {
   text-decoration: none;
 }
-
+li {
+  list-style-type: none;
+}
 .header-list > li {
   display: inline-block;
+  list-style-type: none;
 }
 .header-list > li > a {
-  text-decoration: none;
+  /* text-decoration: none; */
   color: var(--main-color);
 }
 .header-list > li > a:hover {

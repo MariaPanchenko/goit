@@ -20,6 +20,7 @@ header {
   font-size: 14px;
 }
 .header-nav {
+  align-items: baseline;
   display: flex;
 }
 .header-logo {
@@ -82,6 +83,8 @@ header {
 
   height: 600px;
 }
+h1 {
+}
 .sec-header {
   color: #ffffff;
   font-size: 44px;
@@ -93,8 +96,16 @@ header {
   border: none;
   display: block;
   margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin-bottom: 50px;
+  cursor: pointer;
 }
-
+.sec-button:hover,
+.sec-button:focus {
+  background-color: #188ce8;
+  color: #ffffff;
+}
 /* benefits */
 .visually-hidden {
   position: absolute;
@@ -132,8 +143,13 @@ p {
   font-size: 36px;
   text-align: center;
 }
+.about-lists {
+  display: flex;
+  margin-left: 80px;
+}
 .about-lists > li {
   list-style-type: none;
+  padding: 10px;
 }
 /* about */
 
@@ -187,3 +203,15 @@ p {
   font-size: 14px;
 }
 /* footer */
+.footer-addres:hover,
+.footer-addres:focus {
+  color: var(--accent-color);
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+.footer-tel:hover,
+.footer-tel:hover {
+  color: var(--accent-color);
+}
