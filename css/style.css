@@ -80,11 +80,9 @@ header {
 /* main */
 .sec-first {
   background-color: #2f303a;
-
   height: 600px;
 }
-h1 {
-}
+
 .sec-header {
   color: #ffffff;
   font-size: 44px;
