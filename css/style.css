@@ -29,7 +29,8 @@ header {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
+  text-decoration: underline;
 }
 .logo-accent {
   color: var(--accent-color);
@@ -50,7 +51,8 @@ header {
   font-size: 14px;
   line-height: 0, 7;
 }
-.header-list > li > a:hover {
+.header-list > li > a:hover,
+.header-list > li > a:focus {
   color: var(--accent-color);
 }
 
@@ -64,7 +66,8 @@ header {
   color: var(--title-color);
   text-decoration: none;
 }
-.header-mail:hover {
+.header-mail:hover,
+.header-mail:focus {
   color: var(--accent-color);
   cursor: pointer;
 }
@@ -72,7 +75,8 @@ header {
   color: var(--title-color);
   text-decoration: none;
 }
-.header-tel:hover {
+.header-tel:hover,
+.header-tel:focus {
   color: var(--accent-color);
 }
 
@@ -87,10 +91,13 @@ header {
   color: #ffffff;
   font-size: 44px;
   text-align: center;
+  text-transform: uppercase;
 }
 .sec-button {
   background-color: var(--accent-color);
   color: #ffffff;
+  font-size: 16px;
+  font-weight: 700px;
   border: none;
   display: block;
   margin: 0 auto;
@@ -123,6 +130,7 @@ header {
 .benefits-title {
   font-weight: 700;
   font-size: 14px;
+  text-transform: uppercase;
 }
 .benefits-par {
   font-style: regular;
@@ -171,6 +179,9 @@ p {
 /* team */
 
 /* footer */
+footer {
+  font-style: normal;
+}
 .footer {
   background-color: #2f303a;
 }
