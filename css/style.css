@@ -29,7 +29,8 @@ header {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  /* text-decoration: underline; */
+  text-decoration: underline;
+  text-decoration: none;
 }
 .logo-accent {
   color: var(--accent-color);
