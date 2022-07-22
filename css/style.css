@@ -29,7 +29,7 @@ header {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .logo-accent {
   color: var(--accent-color);
@@ -41,6 +41,7 @@ header {
 
 .header-list > li {
   display: inline-block;
+  word-spacing: 30px;
 }
 .header-list > li > a {
   text-decoration: none;
@@ -182,13 +183,13 @@ p {
 
 /* footer */
 footer {
-  font-style: normal;
 }
 
 .footer {
   background-color: #2f303a;
 }
 .footer-contacts {
+  font-style: normal;
 }
 .logo-accent2 {
   color: #ffffff;
