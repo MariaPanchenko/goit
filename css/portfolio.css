@@ -44,7 +44,7 @@ li {
   /* text-decoration: none; */
   color: var(--main-color);
 }
-.header-list > li > a:hover {
+.header-list > li > a:hover .header-list > li > a:focus {
   color: var(--accent-color);
 }
 
@@ -58,7 +58,8 @@ li {
   color: var(--title-color);
   text-decoration: none;
 }
-.header-mail:hover {
+.header-mail:hover,
+.header-mail:focus {
   color: var(--accent-color);
   cursor: pointer;
 }
@@ -66,7 +67,8 @@ li {
   color: var(--title-color);
   text-decoration: none;
 }
-.header-tel:hover {
+.header-tel:hover,
+.header-tel:focus {
   color: var(--accent-color);
 }
 
@@ -92,13 +94,18 @@ li {
   font-weight: 500;
   font-size: 16px;
   background-color: #f5f4fa;
+  color: var(--main-color);
   border: 0;
   border-radius: 4px;
   padding: 10px 20px;
 }
-.list-button:hover {
+.list-button:hover .list-button:focus {
   background-color: var(--accent-color);
+  color: #ffffff;
   cursor: pointer;
+}
+h2 {
+  font-size: 18px;
 }
 
 /* footer */
@@ -130,5 +137,17 @@ li {
   color: var(--title-color);
   font-weight: 400;
   font-size: 14px;
+}
+.footer-addres:hover,
+.footer-addres:focus {
+  color: var(--accent-color);
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--accent-color);
 }
 /* footer */
