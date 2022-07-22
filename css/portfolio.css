@@ -92,6 +92,7 @@ li {
   display: inline-block;
 }
 .list-button {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   background-color: #f5f4fa;
@@ -100,7 +101,8 @@ li {
   border-radius: 4px;
   padding: 10px 20px;
 }
-.list-button:hover .list-button:focus {
+.list-button:hover,
+.list-button:focus {
   background-color: var(--accent-color);
   color: #ffffff;
   cursor: pointer;
