@@ -10,6 +10,7 @@
   --team-bgr: #f5f4fa;
   --hover-button: #188ce8;
   --potrf-botton-bgr: #f5f4fa;
+  --border-cards: #eeeeee;
 }
 
 /* header */
@@ -26,6 +27,7 @@ header {
 .header-nav {
   align-items: baseline;
   display: flex;
+  margin-left: 60px;
 }
 .header-logo {
   font-family: 'Raleway', sans-serif;
@@ -33,7 +35,6 @@ header {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  text-decoration: underline;
   text-decoration: none;
 }
 .logo-accent {
@@ -139,6 +140,10 @@ header {
   clip-path: inset(50%);
   margin: -1px;
 }
+.benefits-lists {
+  display: flex;
+  justify-content: center;
+}
 .benefits-lists > li {
   list-style-type: none;
 }
@@ -152,6 +157,7 @@ header {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  width: 270px;
 }
 p {
   color: var(--title-color);
@@ -167,7 +173,7 @@ p {
 }
 .about-lists {
   display: flex;
-  margin-left: 80px;
+  justify-content: center;
 }
 .about-lists > li {
   list-style-type: none;
@@ -186,11 +192,17 @@ p {
   text-align: center;
 }
 .team-lists {
-  background-color: var(--white-color);
-  width: 270px;
+  /* background-color: var(--white-color); */
+  display: flex;
+  justify-content: center;
 }
 .team-lists > li {
   list-style-type: none;
+  width: 270px;
+  height: 368px;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
 }
 .team-name {
   font-weight: 500;
@@ -214,6 +226,7 @@ footer {
 .footer-contacts {
   font-style: normal;
   line-height: 1.71;
+  margin-left: 30px;
 }
 .logo-accent2 {
   color: var(--white-color);
@@ -278,6 +291,10 @@ li {
   clip-path: inset(50%);
   margin: -1px;
 }
+.list-item {
+  display: flex;
+  justify-content: center;
+}
 .list-item > li {
   list-style-type: none;
   display: inline-block;
@@ -299,6 +316,19 @@ li {
   background-color: var(--accent-color);
   color: var(--white-color);
   cursor: pointer;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.cards-lists {
+  width: 370px;
+  height: 404px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+  border: 1px solid var(--border-cards);
 }
 .cards-title {
   font-size: 18px;
